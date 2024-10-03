@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
+}
+<!-- Bileşenleri çağırma -->
+@await Html.PartialAsync("~/Views/Shared/Components/_NavbarComponentPartial/Default.cshtml")
+@await Html.PartialAsync("~/Views/Shared/Components/_HeadComponentPartial/Default.cshtml")
+@await Html.PartialAsync("~/Views/Shared/Components/_FeatureComponentPartial/Default.cshtml")
+@await Html.PartialAsync("~/Views/Shared/Components/_AboutComponentPartial/Default.cshtml")
+@await Html.PartialAsync("~/Views/Shared/Components/_PortfolioComponentPartial/Default.cshtml")
+@await Html.PartialAsync("~/Views/Shared/Components/_ContactComponentPartial/Default.cshtml")
+@await Html.PartialAsync("~/Views/Shared/Components/_FooterComponentPartial/Default.cshtml")
